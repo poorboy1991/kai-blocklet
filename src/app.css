@@ -1,0 +1,149 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+a,
+ul,
+li,
+span,
+i,
+ol,
+dl,
+dt,
+dd,
+table,
+thead,
+tbody,
+th,
+td,
+input,
+button {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
+}
+button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #333;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  color: #333;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, Poppins-Medium, Poppins, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+.rc-dropdown-hidden {
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+html,
+body,
+.app {
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  display: flex;
+}
+
+.app-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.app-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+pre {
+  font-size: 0.75em;
+}
+
+.app-link {
+  color: #4f6af5;
+}
